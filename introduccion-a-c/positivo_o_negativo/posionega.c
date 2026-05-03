@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
     int contadornegativos = 0;
     int contadorpositivos = 0;
@@ -35,4 +35,6 @@ void main()
     {
         printf("%i, ", numeros[j]);
     };
+
+    return 0;
 }

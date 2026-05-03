@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "funciones.h"
 
-int main(void)
+int main()
 {
     // Variables
     int opcion;
@@ -69,4 +69,5 @@ int main(void)
         }
 
     } while (opcion != 0);
+    return 0;
 };

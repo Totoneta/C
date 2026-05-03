@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
     int numeros[10];
     int resultado = 0;
@@ -16,4 +16,6 @@ void main()
         resultado = resultado + numeros[i];
     };
     printf("Resultado de la suma es: %i", resultado);
+
+    return 0;
 };

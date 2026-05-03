@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void main()
+int main()
 {
     int resultado;
     int numeros[5];
@@ -14,4 +14,6 @@ void main()
     {
         printf("Número %i, posición: %i\n", numeros[i], i);
     };
+
+    return 0;
 }
